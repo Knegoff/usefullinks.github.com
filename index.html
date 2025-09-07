@@ -2,89 +2,75 @@
 <html lang="en">
 <head>
   <meta name="google-site-verification" content="w8mLQgTTsulrkDLnxD9cPiurEbr19bZ6hq8n8m9FZZk" />
-  <meta charset="utf-8" />
-linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,0));
-}
-.badge-soft{ background: rgba(91,124,250,.15); color:#cfe1ff; border:1px solid rgba(91,124,250,.35); }
-.btn-brand{ background: linear-gradient(135deg, var(--brand), var(--accent)); border:0; color:#081226; }
-.btn-brand:hover{ filter: brightness(1.08); }
-
-
-/* Cards */
-.glass{
-background: rgba(255,255,255,.06);
-border: 1px solid rgba(255,255,255,.12);
-box-shadow: 0 10px 30px rgba(0,0,0,.25);
-border-radius: 1rem;
-}
-.icon-circle{
-width:3rem; height:3rem; border-radius:50%; display:grid; place-items:center;
-background: rgba(91,124,250,.15); color:#cfe1ff; border:1px solid rgba(91,124,250,.35);
-}
-
-
-/* Section headings */
-.section-title { letter-spacing:.3px; }
-.section-sub { color:#b9c2ff; }
-
-
-/* Pricing */
-.price { font-size: 2.5rem; font-weight: 800; }
-.popular { border: 1px solid var(--accent); box-shadow: 0 20px 50px rgba(0,203,169,.25); }
-
-
-/* Logos row */
-.logo-strip img { filter: brightness(0) invert(1) opacity(.75); height: 28px; margin: 0 18px; }
-
-
-/* Footer */
-footer { color:#aab3ff; }
-a { color: #b9c7ff; }
-a:hover { color: #ffffff; }
-
-
-/* Contact */
-.form-control, .form-select { background: rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.16); color:#e9ecff; }
-.form-control:focus, .form-select:focus { border-color: var(--brand); box-shadow: 0 0 0 .25rem rgba(91,124,250,.25); }
-
-
-/* Responsive tweaks */
-@media (max-width: 576px){
-.display-5 { font-size: 2.1rem; }
-}
-</style>
-</head>
-<body>
-<!-- Nav -->
-<nav class="navbar navbar-expand-lg sticky-top">
-<div class="container">
-<a class="navbar-brand fw-bold text-white" href="#">Elevate<span class="text-info">SEO</span></a>
-<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="nav">
-<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-<li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-<li class="nav-item"><a class="nav-link" href="#cases">Case Studies</a></li>
-<li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-<li class="nav-item"><a class="nav-link" href="#related-links">Related Links</a></li>
+ <meta charset="utf-8" />
+</div>
+</div>
+<div class="col-md-12 col-lg-4">
+<div class="glass p-4 h-100">
+<h6 class="text-info">Custom</h6>
+<div class="price">Let’s talk</div>
+<p class="small text-secondary mb-3">Multi‑market SEO, complex stacks, or aggressive timelines.</p>
+<ul class="small list-unstyled">
+<li class="mb-2"><i class="bi bi-check2 me-2 text-success"></i>Strategy workshop</li>
+<li class="mb-2"><i class="bi bi-check2 me-2 text-success"></i>Roadmap & resourcing plan</li>
+<li class="mb-2"><i class="bi bi-check2 me-2 text-success"></i>Dedicated senior team</li>
 </ul>
-<a href="#contact" class="btn btn-sm btn-brand ms-lg-3 fw-semibold">Get Proposal</a>
+<a href="#contact" class="btn btn-outline-light w-100">Book a discovery call</a>
 </div>
 </div>
-</nav>
-
-
-<!-- 1) HERO -->
-... (content unchanged) ...
+</div>
+</div>
+</section>
 
 
 <!-- 5) CONTACT -->
 <section id="contact" class="py-5">
 <div class="container">
 <div class="row g-4 align-items-center">
-... (contact form unchanged) ...
+<div class="col-lg-5">
+<h2 class="section-title fw-bold">Get your free SEO audit</h2>
+<p class="section-sub">Tell us about your goals and we’ll send a prioritized roadmap within 72 hours.</p>
+<div class="d-flex flex-column gap-2 small text-secondary">
+<div><i class="bi bi-shield-check me-2"></i>No long‑term contracts</div>
+<div><i class="bi bi-clock-history me-2"></i>Monthly sprints, weekly updates</div>
+<div><i class="bi bi-emoji-smile me-2"></i>Friendly experts who care</div>
+</div>
+</div>
+<div class="col-lg-7">
+<form class="glass p-4">
+<div class="row g-3">
+<div class="col-md-6">
+<label class="form-label">Name</label>
+<input type="text" class="form-control" placeholder="Alex Doe" required>
+</div>
+<div class="col-md-6">
+<label class="form-label">Email</label>
+<input type="email" class="form-control" placeholder="alex@company.com" required>
+</div>
+<div class="col-md-6">
+<label class="form-label">Website</label>
+<input type="url" class="form-control" placeholder="https://example.com" required>
+</div>
+<div class="col-md-6">
+<label class="form-label">Monthly budget</label>
+<select class="form-select">
+<option value="" selected>Choose…</option>
+<option>Under $2k</option>
+<option>$2k–$5k</option>
+<option>$5k–$10k</option>
+<option>$10k+</option>
+</select>
+</div>
+<div class="col-12">
+<label class="form-label">Goals</label>
+<textarea class="form-control" rows="4" placeholder="Tell us what success looks like for you…"></textarea>
+</div>
+<div class="col-12 d-grid d-md-block">
+<button class="btn btn-brand btn-lg" type="submit">Send request</button>
+</div>
+</div>
+</form>
+</div>
 </div>
 </div>
 </section>
@@ -94,7 +80,8 @@ a:hover { color: #ffffff; }
 <section id="related-links" class="py-5">
 <div class="container">
 <h2 class="section-title fw-bold mb-4">Related Links</h2>
-<ul class="list-group list-group-flush glass">
+<div class="glass p-3">
+<ul class="list-group list-group-flush">
 <li class="list-group-item bg-transparent"><a href="https://ez3.uk/forum/blog/view/356330/wherever-might-i-confidence-nagelsalong-umea" target="_blank">nagelsalong umeå</a></li>
 <li class="list-group-item bg-transparent"><a href="https://localservicesblog.uk/forum/blog/view/300102/exactly-how-could-you-sell-beneficialfantastic-nagelsalong-umea" target="_blank">nagelsalong umeå</a></li>
 <li class="list-group-item bg-transparent"><a href="https://tradersreview.co.uk/forum/blog/view/160333/9-reasons-people-laugh-about-your-nagelsalong-umea" target="_blank">nagelsalong umeå</a></li>
@@ -106,6 +93,7 @@ a:hover { color: #ffffff; }
 <li class="list-group-item bg-transparent"><a href="https://autolocksmithlocal.co.uk/forum/blog/view/196797/proof-that-naglar-umea-really-works" target="_blank">naglar umeå</a></li>
 <li class="list-group-item bg-transparent"><a href="https://locksmithsandsecurity.co.uk/forum/blog/view/271757/5-facts-everyone-should-know-about-nagelforlangning-umea" target="_blank">nagelförlängning umeå</a></li>
 </ul>
+</div>
 </div>
 </section>
 
