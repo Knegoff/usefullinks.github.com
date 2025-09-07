@@ -5,97 +5,204 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Umeå Nail Salon — Friendly, Simple, Human</title>
-  <meta name="description" content="A friendly little nail salon website for Umeå. Simple info, human copy, and related links." />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nail Salons: My Messy, Honest Guide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    :root{
-      --paper:#fffefc; --ink:#1f2430; --muted:#5d6577; --accent:#e6b7ff; --line:#ece8f2;
-    }
-    html{box-sizing:border-box;scroll-behavior:smooth}
-    *,*:before,*:after{box-sizing:inherit}
-    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--paper);color:var(--ink);}
-    .container{max-width:900px;margin:auto;padding:24px}
-    header{padding:48px 0;border-bottom:1px solid var(--line)}
-    h1{font-size:2.25rem;margin:.25rem 0 0}
-    .tag{display:inline-block;background:var(--accent);padding:.25rem .6rem;border-radius:999px;font-weight:600}
-    p{line-height:1.65;color:var(--muted)}
-    section{padding:28px 0;border-bottom:1px solid var(--line)}
-    ul{padding-left:1.1rem}
-    .cta{display:inline-block;margin-top:8px;padding:.7rem 1rem;border-radius:.6rem;background:#111;color:#fff;text-decoration:none}
-    .card{background:#fff;border:1px solid var(--line);border-radius:.8rem;padding:16px}
-    .links a{display:block;padding:.6rem .8rem;border-radius:.6rem;border:1px solid var(--line);text-decoration:none;margin-bottom:10px}
-    .links a:hover{background:#faf7ff}
-    footer{padding:28px 0;color:#6b7280;font-size:.925rem}
+    :root{ --ink:#1f2430; --muted:#5d6577; --line:#eee; --accent:#ffb7d5; }
+    body{ font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:#fff; color:var(--ink); }
+    header{ background:linear-gradient(180deg, #ffe6f0 0%, #fff 100%); padding:3rem 0; }
+    h1{ font-weight:800; letter-spacing:.2px; }
+    .lead{ color:var(--muted); }
+    .toc a{ text-decoration:none; }
+    .section{ padding:2rem 0; border-top:1px solid var(--line); }
+    .links a{ display:block; padding:.6rem .8rem; border:1px solid var(--line); border-radius:.5rem; text-decoration:none; margin-bottom:.6rem; }
+    .links a:hover{ background:#fff6fb; }
+    footer{ border-top:1px solid var(--line); padding:2rem 0; color:var(--muted); }
+    .badge-accent{ background:var(--accent); }
   </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <span class="tag">Hej Umeå 👋</span>
-      <h1>Soft, tidy nails without the fuss</h1>
-      <p>
-        We're a small, friendly nail spot in Umeå that keeps things simple: clean prep, gentle products,
-        and shapes that actually fit your life. No hard sell. Just nice nails and nice people.
-      </p>
-      <a class="cta" href="#book">Book a time</a>
-    </header>
+  <header>
+    <div class="container">
+      <span class="badge rounded-pill badge-accent">Real talk 💅</span>
+      <h1 class="mt-3">Nail Salons: My Messy, Honest Guide to Finding the Right One</h1>
+      <p class="lead">A human, no‑fluff walkthrough with stories, green flags, red flags, and the internet tangents that happen mid mani‑pedi.</p>
+    </div>
+  </header>
 
-    <section id="what-we-do">
-      <h2>What we do</h2>
-      <p>Short and sweet menu—easy to choose, easy to love.</p>
-      <div class="card">
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 id="table-of-contents" class="h4">Table of Contents</h2>
+        <ol class="toc">
+          <li><a href="#story">My Slightly Embarrassing Nail Salon Story</a></li>
+          <li><a href="#why-matter">Why Nail Salons Matter More Than We Admit</a></li>
+          <li><a href="#good-salon">What a Good Nail Salon Actually Does (Beyond Pretty Colors)</a></li>
+          <li><a href="#tangents">The Weird Tangents My Brain Took While Getting a Mani-Pedi</a></li>
+          <li><a href="#flags">Signs of a Great Nail Salon vs. Red Flags (aka “Run, Girl”)</a></li>
+          <li><a href="#trends">Nail Trends, Memes, and That TikTok Acrylic Rabbit Hole</a></li>
+          <li><a href="#pros-cons">Pros & Cons of Nail Salon Life</a></li>
+          <li><a href="#why-swear">Why I Still Swear by Them (Even When I Could DIY)</a></li>
+          <li><a href="#find">Where to Find the Best Nail Salons Near You</a></li>
+          <li><a href="#final">Final Thoughts + A Question for You</a></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="story" class="section">
+      <div class="container">
+        <h3>1. My Slightly Embarrassing Nail Salon Story</h3>
+        <p>So, confession time: the first time I went to a nail salon, I had no idea what I was doing. I literally Googled “what do you say at a nail salon” on my phone while sitting in the waiting area. The woman at the front desk asked if I wanted a “fill,” and I panicked. I almost said “yes” just to avoid looking dumb.</p>
+        <p>Spoiler: I did not need a fill. I just needed someone to fix the stubby, sad excuses for nails I’d been gnawing on during exam season.</p>
+        <p>The good news? That awkward day turned into one of my favorite forms of self-care. Nail salons, for me, are part therapy, part spa, and part hangout spot where gossip magazines still somehow exist in 2025.</p>
+      </div>
+    </section>
+
+    <section id="why-matter" class="section">
+      <div class="container">
+        <h3>2. Why Nail Salons Matter More Than We Admit</h3>
+        <p>Let’s be real—nail salons are more than “just nails.” They’re little community hubs. They’re where:</p>
         <ul>
-          <li>Classic manicure — tidy shape + nourishing finish</li>
-          <li>Gel polish — long‑lasting shine that survives real life</li>
-          <li>French or soft ombré — natural, clean, timeless</li>
-          <li>Nail rehab — break‑free strengthening and cuticle care</li>
+          <li>You overhear the juiciest neighborhood gossip.</li>
+          <li>You accidentally bond with a stranger over the horror of gel polish removal.</li>
+          <li>You walk out feeling 10% more like you have your life together, even if your laundry pile at home says otherwise.</li>
+        </ul>
+        <p>Honestly, it’s not about just polish. It’s about confidence, relaxation, and sometimes just escaping your kids (or your boss) for an hour.</p>
+      </div>
+    </section>
+
+    <section id="good-salon" class="section">
+      <div class="container">
+        <h3>3. What a Good Nail Salon Actually Does (Beyond Pretty Colors)</h3>
+        <p>Sure, the polish is the obvious part. But the best nail salons do so much more:</p>
+        <ul>
+          <li><strong>Nail Health:</strong> They don’t just slap on acrylics—they check cuticles, shape nails correctly, and use products that don’t destroy your natural nail beds.</li>
+          <li><strong>Sanitation:</strong> Tools are sterilized, footbaths are clean, and files aren’t reused from client to client (ew).</li>
+          <li><strong>Customization:</strong> From minimalist gel to full-on Swarovski-covered claws, the good salons listen to what you want.</li>
+          <li><strong>Comfort:</strong> Massaging chairs, good lighting, a vibe that doesn’t feel like a medical exam.</li>
+        </ul>
+        <p>Think of it as the difference between a gas station hotdog and a chef-made meal. Both technically “feed you,” but only one leaves you bragging to friends.</p>
+      </div>
+    </section>
+
+    <section id="tangents" class="section">
+      <div class="container">
+        <h3>4. The Weird Tangents My Brain Took While Getting a Mani-Pedi</h3>
+        <ul>
+          <li>Why does the smell of acetone feel nostalgic? Like, weirdly comforting.</li>
+          <li>Why do nail dryers make me feel like I’m waiting for a test score?</li>
+          <li>And why, oh why, do I always convince myself “this time I’ll choose a neutral color” only to leave with neon orange?</li>
+        </ul>
+        <p>Oh, and side tangent: one time, my nail tech told me she once had a client bring in their dog for “moral support.” The dog sat on her lap the entire appointment like a furry emotional support pillow. Legendary.</p>
+      </div>
+    </section>
+
+    <section id="flags" class="section">
+      <div class="container">
+        <h3>5. Signs of a Great Nail Salon vs. Red Flags (aka “Run, Girl”)</h3>
+        <p><strong>Green Flags (aka yes, book that fill):</strong></p>
+        <ul>
+          <li>Clean tools sealed in bags.</li>
+          <li>Staff actually washes their hands between clients.</li>
+          <li>They ask you questions about shape, length, and style before starting.</li>
+          <li>They don’t rush even if it’s busy.</li>
+          <li>Reviews mention consistency, not just “great nails once.”</li>
+        </ul>
+        <p><strong>Red Flags (seriously, leave):</strong></p>
+        <ul>
+          <li>Dust everywhere, cloudy acrylic powder flying like confetti.</li>
+          <li>They cut your cuticles until you bleed and call it “normal.”</li>
+          <li>Nail files that look like they’ve seen 400 clients before you.</li>
+          <li>Pushy upselling (“you NEED gel, acrylic, dip, glitter, chrome—oh and a rhinestone package too”).</li>
+        </ul>
+        <p>If your gut says ew, listen.</p>
+      </div>
+    </section>
+
+    <section id="trends" class="section">
+      <div class="container">
+        <h3>6. Nail Trends, Memes, and That TikTok Acrylic Rabbit Hole</h3>
+        <p>I swear, TikTok has ruined my nail budget. Every other scroll: “Glazed donut nails,” “Hailey Bieber chrome,” “3D floral gels.” And don’t get me started on the nail meme where girls type on keyboards with long acrylics like they’re casting spells. (I tried it once—deleted three files by mistake. Never again.)</p>
+        <p>Pop culture has made nails an art form. From Cardi B’s bedazzled sets to Zendaya’s understated classics, there’s literally a nail vibe for every personality.</p>
+      </div>
+    </section>
+
+    <section id="pros-cons" class="section">
+      <div class="container">
+        <h3>7. Pros & Cons of Nail Salon Life</h3>
+        <p><strong>Pros:</strong></p>
+        <ul>
+          <li>Professional finish (let’s be real, my DIY nails look like toddler art).</li>
+          <li>Relaxing experience (massage chairs, small talk, sometimes gossip).</li>
+          <li>Long-lasting results—gel or dip easily beats at-home polish.</li>
+          <li>Boosts confidence instantly.</li>
+        </ul>
+        <p><strong>Cons:</strong></p>
+        <ul>
+          <li>Time commitment—you’re in that chair for 1–2 hours minimum.</li>
+          <li>Damage risk if you go too often without breaks.</li>
+          <li>Picking colors is literally a mental breakdown in a bottle.</li>
         </ul>
       </div>
     </section>
 
-    <section id="hours">
-      <h2>Hours & where to find us</h2>
-      <p>
-        Weekdays 10–18, Saturdays 10–15. We’re in central Umeå, a short walk from bus lines. If you’re early,
-        grab a coffee next door—we’ll wave you in when we’re ready. 💅
-      </p>
-    </section>
-
-    <section id="book">
-      <h2>Book or ask a question</h2>
-      <p>
-        Prefer messages over forms? Same here. Send us a quick note with what you need and when you’re free.
-        We’ll reply with times that work.
-      </p>
-      <div class="card">
-        <p><strong>Email:</strong> hello@example.com<br>
-        <strong>Phone:</strong> 070‑000 00 00</p>
+    <section id="why-swear" class="section">
+      <div class="container">
+        <h3>8. Why I Still Swear by Them (Even When I Could DIY)</h3>
+        <p>Yes, I own nail polish. Yes, I’ve watched endless YouTube tutorials. But guess what? Every time I try to DIY, my left hand looks decent and my right hand looks like a horror movie prop.</p>
+        <p>Salons aren’t just about results—they’re about ritual. Walking in, sitting down, zoning out while someone else takes care of you—it’s a tiny slice of luxury in a week of chaos. And honestly? I deserve it. You probably do too.</p>
       </div>
     </section>
 
-    <section id="related-links">
-      <h2>Related links (just sharing)</h2>
-      <p>Here are some links people often ask about. They’ll open in a new tab.</p>
-      <div class="links">
-        <a href="https://ez3.uk/forum/blog/view/356330/wherever-might-i-confidence-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
-        <a href="https://localservicesblog.uk/forum/blog/view/300102/exactly-how-could-you-sell-beneficialfantastic-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
-        <a href="https://tradersreview.co.uk/forum/blog/view/160333/9-reasons-people-laugh-about-your-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
-        <a href="https://999reunite.co.uk/forum/blog/view/283765/can-you-really-find-naglar-umea-on-the-web" target="_blank" rel="noopener">naglar umeå</a>
-        <a href="https://smartlocksmiths.co.uk/forum/blog/view/270987/the-most-common-mistakes-people-make-with-umea-naglar" target="_blank" rel="noopener">umeå naglar</a>
-        <a href="https://locksmithsandsecurity.co.uk/forum/blog/view/271756/death-wwwnaglarumease-and-taxes" target="_blank" rel="noopener">www.naglarumea.se</a>
-        <a href="https://autolocksmithlocal.co.uk/forum/blog/view/196798/the-evolution-of-akrylnaglar-umea" target="_blank" rel="noopener">akrylnaglar umeå</a>
-        <a href="https://localservicesblog.uk/forum/blog/view/300103/10-ways-you-can-grow-your-creativity-using-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
-        <a href="https://autolocksmithlocal.co.uk/forum/blog/view/196797/proof-that-naglar-umea-really-works" target="_blank" rel="noopener">naglar umeå</a>
-        <a href="https://locksmithsandsecurity.co.uk/forum/blog/view/271757/5-facts-everyone-should-know-about-nagelforlangning-umea" target="_blank" rel="noopener">nagelförlängning umeå</a>
+    <section id="find" class="section">
+      <div class="container">
+        <h3>9. Where to Find the Best Nail Salons Near You</h3>
+        <p>Alright, here’s the tricky part: not all nail salons are created equal. Some are gems, others…not so much.</p>
+        <p><strong>How to find the good ones:</strong></p>
+        <ul>
+          <li>Google reviews: look for mentions of cleanliness and consistency.</li>
+          <li>Instagram: stalk their work. If they post high-quality photos of clients’ nails, chances are they’re proud of their craft.</li>
+          <li>Word of mouth: ask friends (bonus: you might get a salon buddy).</li>
+          <li>Local Facebook groups (I once found a hidden gem through a “Uptown Moms” thread—shoutout to them).</li>
+        </ul>
       </div>
     </section>
 
-    <footer>
-      <p>© <span id="year"></span> Umeå Nail Salon. Thanks for stopping by!</p>
-    </footer>
-  </div>
+    <section id="final" class="section">
+      <div class="container">
+        <h3>10. Final Thoughts + A Question for You</h3>
+        <p>So here’s my take: nail salons are more than beauty stops. They’re little hubs of self-care, creativity, and (sometimes) free therapy disguised as small talk. Sure, they cost money and time, but the boost you get walking out with fresh nails? Worth it.</p>
+        <p>Now here’s my question for you: do you swear by your nail salon, or are you still rocking chipped polish from three months ago? Be honest—I’ve been both.</p>
+      </div>
+    </section>
+
+    <section id="related-links" class="section">
+      <div class="container">
+        <h3>Related Links (open in new tab)</h3>
+        <div class="links">
+          <a href="https://ez3.uk/forum/blog/view/356330/wherever-might-i-confidence-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
+          <a href="https://localservicesblog.uk/forum/blog/view/300102/exactly-how-could-you-sell-beneficialfantastic-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
+          <a href="https://tradersreview.co.uk/forum/blog/view/160333/9-reasons-people-laugh-about-your-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
+          <a href="https://999reunite.co.uk/forum/blog/view/283765/can-you-really-find-naglar-umea-on-the-web" target="_blank" rel="noopener">naglar umeå</a>
+          <a href="https://smartlocksmiths.co.uk/forum/blog/view/270987/the-most-common-mistakes-people-make-with-umea-naglar" target="_blank" rel="noopener">umeå naglar</a>
+          <a href="https://locksmithsandsecurity.co.uk/forum/blog/view/271756/death-wwwnaglarumease-and-taxes" target="_blank" rel="noopener">www.naglarumea.se</a>
+          <a href="https://autolocksmithlocal.co.uk/forum/blog/view/196798/the-evolution-of-akrylnaglar-umea" target="_blank" rel="noopener">akrylnaglar umeå</a>
+          <a href="https://localservicesblog.uk/forum/blog/view/300103/10-ways-you-can-grow-your-creativity-using-nagelsalong-umea" target="_blank" rel="noopener">nagelsalong umeå</a>
+          <a href="https://autolocksmithlocal.co.uk/forum/blog/view/196797/proof-that-naglar-umea-really-works" target="_blank" rel="noopener">naglar umeå</a>
+          <a href="https://locksmithsandsecurity.co.uk/forum/blog/view/271757/5-facts-everyone-should-know-about-nagelforlangning-umea" target="_blank" rel="noopener">nagelförlängning umeå</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container d-flex justify-content-between flex-wrap gap-2">
+      <div>© <span id="year"></span> Honest Nails. All rights reserved.</div>
+      <div><a href="#table-of-contents" class="link-dark">Back to top ↑</a></div>
+    </div>
+  </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
